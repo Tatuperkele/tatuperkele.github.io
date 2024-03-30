@@ -83,6 +83,13 @@
 	width: 360px;
 }
 
+#tatu {
+	margin-top: 20px;
+	text-align: center;
+	color: #c71212;
+	cursor: default;
+}
+
 #jumbo-container {
 	margin-top: 20px;
 	text-align: center;
