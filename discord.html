@@ -1,47 +1,136 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en"><head><script>
+var DOMReady = function(callback)
+{
+    var b=document;
+    var c='addEventListener';
+    b[c] ? b[c] ('DOMContentLoaded', callback) : window.attachEvent('onload',callback);
+}
 
-<head>
-	<meta charset="utf-8" />
+var loadScript = function(src, id)
+{
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.src = src;
+    if (typeof id === 'string' && id !== ''){
+        s.id = id;
+    }
 
-	<!-- icon -->
-	<link href="favicon.gif" rel="icon" />
-	<link href="favicon.gif" rel="shortcut icon" />
-	<!-- styles -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:900,400" rel="stylesheet" type="text/css" />
-	<link href="static/css/style.css" rel="stylesheet" type="text/css" />
-	<link href="static/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<!-- javascript -->
-	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	<script src="static/js/scrollreveal.min.js"></script>
-  <meta name="description" content="Suomi discord yhteisö.">
-	<title>Discord - SM</title>
-	<meta content="Samppimafia⚡" property="og:title" />
-  <meta content="Kkona" property="og:description" />
-  <meta content="https://embed.com/this-is-the-site-url" property="og:url" />
-  <meta content="" property="og:image" />
-  <meta content="#ffd900" data-react-helmet="true" name="theme-color" />
-</head>
-<body>
-	<nav class="gs-navbar">
-		<div class="gs-nav-container">
-			<ul>
-				<li><a href="index.html">KOTI</a></li>
-			</ul>
-		</div>
-	</nav>
+    var head = document.getElementsByTagName("head")[0];
+    (head || document.body).appendChild(s);
+}
 
-	<div class="divide"></div>
+DOMReady(function ()
+{
+    loadScript("/.well-known/ddos-guard/check?context=free_splash", 'ddg_script_f');
+    loadScript("https://check.ddos-guard.net/check.js");
+});
 
-	<div class="container" id="jumbo-container">
-			<div id="header" data-sr="enter bottom and scale up 50% over 1s no reset">
-			</div>
-		</div>
-	</div>
-<html>
-<body>
-<h1>᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼Samppimafian Discord on bännätty...</h1>
-</body>
-</html>
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samppimafia</title>
+    <style>
+        body {
+            background-color: #060606;
+            margin: 0;
+            font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .center-screen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h3 {
+            color: #fff
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .pulsating-circle {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #373737;
+            opacity: 0.1;
+            animation: pulse 1s infinite;
+            z-index: 2;
+        }
+
+        .pulsating-circle2 {
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background-color: #0e0e0e;
+            animation: pulse2 1s infinite;
+            z-index: 1;
+            opacity: 0.1;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.4);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+
+        @keyframes pulse2 {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.6);
+                opacity: 0.5;
+            }
+        }
+    </style>
+<script type="text/javascript" src="check" id="ddg_script_f"></script><script type="text/javascript" src="js/check.js"></script></head>
+
+<body class="center-screen">
+
+    <pre style="font: 1px/0.5px monospace; overflow-x: hidden; overflow-y: hidden; border: none; fill: #373737; color: white; z-index: 3">                                             .                                                                                          .                                            
+                                                                                                       
+</pre>
+
+ 
+</body></html>
+
+
+            <div id="title">
+            <iframe src="forum/image.png" width="280" height="320" allowtransparency="true" frameborder="0"></iframe>
+         
+          
+            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"> 
+            <body onclick="window.location.href='https://discord.gg/finland';"> 
+            </body> 
+            </html>
+
+
+
+
+        </div>
+    </div>
+</div>
+<script>
