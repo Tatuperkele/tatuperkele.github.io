@@ -273,8 +273,8 @@
 }#visualzBtn {
     border-style: none;
     border-radius: 5px;
-    color: white;
-    background-color: #707fdd !important;
+    color: rgb(0, 0, 0);
+    background-color: #7a1717 !important;
     margin-top: 11px;
     padding: 2px;
     padding-right: 2px;
@@ -285,7 +285,7 @@
     padding-right: 88px;
 }
 #visualzBtn:hover {
-    background-color: #267dfd !important;
+    background-color: #000000 !important;
     cursor: pointer;
 }
 #visualzCfx {
@@ -294,7 +294,7 @@
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    color: black;
+    color: rgb(92, 47, 47);
     font-family: Roboto;
     text-align: center;
 }
@@ -345,7 +345,7 @@
     border-style: none;
     border-radius: 5px;
     color: white;
-    background-color: #707fdd !important;
+    background-color: #ff0000 !important;
     padding: 4px;
     padding-right: 8px;
     padding-left: 8px;
@@ -353,14 +353,14 @@
     padding-right: 60px;
 }
 #serverBtnPlayers:hover {
-    background-color: #e68387 !important;
+    background-color: #ff0008 !important;
     cursor: pointer;
 }
 #serverBtnResources {
     border-style: none;
     border-radius: 5px;
     color: white;
-    background-color: #707fdd !important;
+    background-color: #ff0000 !important;
     padding: 4px;
     padding-right: 8px;
     padding-left: 8px;
@@ -368,7 +368,7 @@
     padding-right: 60px;
 }
 #serverBtnResources:hover {
-    background-color: #e68387 !important;
+    background-color: #ff0008 !important;
     cursor: pointer;
 }
 /* The Modal (background) */
@@ -387,7 +387,7 @@
 }
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #ff0000;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
