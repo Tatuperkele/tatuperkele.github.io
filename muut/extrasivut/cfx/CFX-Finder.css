@@ -1,0 +1,408 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1153px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  width: 513px;
+  margin: 300px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  width: 375px;
+  margin: -11px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  min-height: 110px;
+  width: 570px;
+  margin: -1px auto 0;
+}
+
+.u-section-1 .u-group-1 {
+  width: 1084px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-custom-html-2 {
+  min-height: 75px;
+  width: 981px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-group-2 {
+  width: 532px;
+  min-height: 100px;
+  margin: 20px auto 0 27px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-custom-html-3 {
+  min-height: 75px;
+  width: 445px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-group-3 {
+  width: 532px;
+  min-height: 100px;
+  margin: -100px 27px 0 auto;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-custom-html-4 {
+  min-height: 75px;
+  width: 444px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-group-4 {
+  width: 532px;
+  min-height: 100px;
+  margin: 20px auto 0 27px;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-custom-html-5 {
+  min-height: 75px;
+  width: 444px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-group-5 {
+  width: 532px;
+  min-height: 100px;
+  margin: -100px 27px 60px auto;
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-section-1 .u-custom-html-6 {
+  min-height: 75px;
+  width: 506px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    height: auto;
+    width: 940px;
+  }
+
+  .u-section-1 .u-group-2 {
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-custom-html-3 {
+    height: auto;
+  }
+
+  .u-section-1 .u-group-3 {
+    margin-top: 10px;
+    margin-right: auto;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-custom-html-4 {
+    height: auto;
+  }
+
+  .u-section-1 .u-group-4 {
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-custom-html-5 {
+    height: auto;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-bottom: 0;
+  }
+
+  .u-section-1 .u-custom-html-6 {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-group-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-group-3 {
+    margin-top: -100px;
+    margin-right: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-group-3 {
+    margin-right: 8px;
+  }
+
+  .u-section-1 .u-group-5 {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-3 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-3 {
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-4 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-4 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-5 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-5 {
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-6 {
+    width: 340px;
+  }
+}#visualzBtn {
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #7a1717 !important;
+    margin-top: 11px;
+    padding: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+#visualzBtn:hover {
+    background-color: #000000 !important;
+    cursor: pointer;
+}
+#visualzCfx {
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(92, 47, 47);
+    font-family: Roboto;
+    text-align: center;
+}
+.u-group {
+    display: none;
+}
+#serverName {
+    text-align: center;
+}
+#serverAddress {
+    text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#serverGamebuild {
+    text-align: center;
+}
+#serverPlayers {
+    text-align: center;
+}
+#serverOnesync {
+    text-align: center;
+}
+#serverOwner {
+    text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: inline-block;
+	width: 100%;
+}
+.parent {
+    width: 100%;
+	text-align: center;
+ }
+.child{
+    display: inline-block;
+    width: 30%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.childServerInfo {
+    display: inline-block;
+    width: 45%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#serverBtnPlayers {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff0000 !important;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#serverBtnPlayers:hover {
+    background-color: #ff0008 !important;
+    cursor: pointer;
+}
+#serverBtnResources {
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff0000 !important;
+    padding: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#serverBtnResources:hover {
+    background-color: #ff0008 !important;
+    cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #ff0000;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
