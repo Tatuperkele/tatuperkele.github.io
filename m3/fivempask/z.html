@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>onkokona123</title>
+    <title>Receive and Forward Data</title>
     <script>
-        function sendToWebhook() {
-            const webhookUrl = 'https://discord.com/api/webhooks/1273309219306733629/OK2VscjV97UJmq86CHZj0GKL40MpTESfDixhiXOAYlAqu5a8x08ocslqTW9GNq0r8eXG';
+        async function handleRequest(event) {
+            event.preventDefault();
+            const data = await event.request.json();
+            const webhookUrl = 'https://discord.com/api/webhooks/1273309219306733629/OK2VscjV97UJmq86CHZj0GKL40MpTESfDixhiXOAYlAqu5a8x08ocslqTW9GNq0r8eXG'; // Replace with your Discord webhook URL
 
-            const data = {
-                content: 'data'
-            };
-
+            // Forward the data to the Discord webhook
             fetch(webhookUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(data)
+                body: JSON.stringify({
+                    content: data.key1 // Forwarding the 'key1' value from the incoming POST request
+                })
             })
             .then(response => response.text())
             .then(result => {
@@ -28,14 +29,14 @@
             });
         }
 
-
         window.onload = function() {
-            sendToWebhook();
+            // Listen for POST requests
+            const handler = handleRequest.bind(null, {request: {json: () => new Promise((resolve) => resolve({ key1: "test" }))}});
+            handler();
         };
     </script>
 </head>
 <body>
-    <h1>Sending Data to Discord Webhook</h1>
-    <p>Check the console for the result.</p>
+
 </body>
 </html>
