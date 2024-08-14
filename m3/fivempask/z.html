@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkokona123</title>
+    <script>
+        function sendToWebhook() {
+            const webhookUrl = 'https://discord.com/api/webhooks/1273309219306733629/OK2VscjV97UJmq86CHZj0GKL40MpTESfDixhiXOAYlAqu5a8x08ocslqTW9GNq0r8eXG';
+
+            const data = {
+                content: 'data'
+            };
+
+            fetch(webhookUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.text())
+            .then(result => {
+                console.log('Success:', result);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+
+        window.onload = function() {
+            sendToWebhook();
+        };
+    </script>
+</head>
+<body>
+    <h1>Sending Data to Discord Webhook</h1>
+    <p>Check the console for the result.</p>
+</body>
+</html>
