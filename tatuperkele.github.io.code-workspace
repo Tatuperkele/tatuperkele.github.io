@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "tatuperkele.github.io",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../Desktop/paskasivu/images"
+		},
+		{
+			"name": "js",
+			"path": "../../../Desktop/paskasivu/js"
+		},
+		{
+			"name": "media",
+			"path": "../../../Desktop/paskasivu/media"
+		},
+		{
+			"name": "css",
+			"path": "../../../Desktop/paskasivu/css"
+		},
+		{
+			"name": "fonts",
+			"path": "../../../Desktop/paskasivu/fonts"
+		}
+	],
+	"settings": {}
+}
